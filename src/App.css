@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.app_header{
+  display: flex;
+  flex-direction: row;
+  padding:60px 0  10px 0;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+.app_header input{
+  width :70%;
+  height: 15px;
+  padding:20px;
+  margin-right: 15px;
+  border:none;
+  border-radius: 4PX;
+  box-shadow: 0px 0px 4px -1px rgb(109, 109, 109);
+
+
+}
+.app_header input:focus{
+  outline: none;
+}
+.app_header input::placeholder{
+  opacity: 70%;
+}
